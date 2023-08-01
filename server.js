@@ -1,4 +1,4 @@
-const io = require('socket.io')("https://luminous-scone-93f4c9.netlify.app/");
+const io = require('socket.io')(3000);
 
 const users = {};
 
